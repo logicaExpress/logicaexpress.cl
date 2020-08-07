@@ -27,3 +27,8 @@ header,
         background-color: #212121;
     }
 }
+
+.nav-pills .nav-link.active {
+    background-color: #212121;
+    border: #ffffff solid 1px;
+}
