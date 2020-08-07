@@ -14,15 +14,16 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #e0e0e0;
+    background-color: #212121;
+    .navbar-light;
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background-color: #e0e0e0;
+        background-color: #212121;
     }
 }
 @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-        background-color: #e0e0e0;
+        background-color: #212121;
     }
 }

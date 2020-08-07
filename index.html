@@ -17,12 +17,12 @@
 <body>
 <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top scrolling-navbar">
+    <nav id="topNavigationBar" class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar">
         <!-- Navbar brand -->
         <div class="mx-auto order-1">
-            <a class="navbar-brand" href="#"><img alt="logo" class="d-inline-block align-top"
+            <a class="navbar-brand font-weight-bold" href="#"><img alt="logo" class="d-inline-block align-top"
                                                   height="30"
-                                                  src="content/placeholder_logo.svg">Logica</a>
+                                                  src="content/placeholder_logo.png">Logica</a>
         </div>
         <!--- Hamburger collapse button --->
         <button aria-controls="navigationMenu" aria-expanded="false" aria-label="Toggle navigation"
@@ -50,7 +50,7 @@
         </div>
         <!-- Right button -->
         <div class="navbar-collapse collapse order-4 order-md-2 navigationMenu w-100">
-            <button class="btn btn-outline-dark btn-sm ml-auto"><i class="fab fa-hubspot fa-lg"></i>Centro de
+            <button class="btn btn-outline-light btn-sm ml-auto"><i class="fab fa-hubspot fa-lg"></i>Centro de
                 control
             </button>
         </div>
@@ -63,15 +63,21 @@
                 <div class="row d-flex justify-content-center text-center smooth-scroll">
                     <div class="col-md-12">
                         <!-- Heading -->
-                        <h2 class="display-4 font-weight-bold white-text rgba-black-light text-uppercase px-3 py-2">
-                            Somos Logica Express</h2>
+                        <div class="animated wow fadeIn" data-wow-delay="0.2s"
+                             style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                            <h2 class="display-4 font-weight-bold white-text rgba-black-light text-uppercase px-3 py-2 ">
+                                Somos Logica Express</h2>
+                        </div>
                         <!-- Divider -->
-                        <hr class="hr-light">
+                        <hr class="animated wow fadeIn hr-light" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-name: fadeIn; animation-delay: 0.6s;">
                         <!-- Description -->
-                        <h4 class="white-text my-4">Especialistas en logística de última milla.</h4>
-                        <button type="button" class="btn btn-outline-white">Cotiza con nosotros<i
-                                class="fas fa-book ml-2"></i>
-                        </button>
+                        <div class="animated wow fadeIn delay-1s" data-wow-delay="1.0s">
+                            <h4 class="white-text my-4">Especialistas en logística de última milla.</h4>
+                            <button type="button" class="btn btn-outline-white">Cotiza con nosotros<i
+                                    class="fas fa-book ml-2"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,50 +91,60 @@
     <div class="container">
         <!--Section: Compromiso-->
         <section id="compromiso">
-            <!-- Heading -->
-            <h2 class="mb-5 text-center font-weight-bold wow fadeIn">Nuestro compromiso</h2>
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center mb-4">
-                <!--Grid column-->
-                <div class="col-md-8">
-                    <!-- Description -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate hic provident nulla
-                        repellat
-                        facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis est
-                        sit pariatur.</p>
+            <div class="animated wow fadeIn"
+                 style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                <!-- Heading -->
+                <h2 class="mb-5 text-center font-weight-bold">Nuestro compromiso</h2>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <!-- Description -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate hic provident nulla
+                            repellat
+                            facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
+                            est
+                            sit pariatur.</p>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
             </div>
             <!--Grid row-->
             <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-md-4 mb-1">
-                    <i class="fab fa-hubspot fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Tracking</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-                        nam, aperiam minima
-                        assumenda deleniti hic.</p>
+            <div class="animated wow fadein" data-wow-delay="0.4s"
+                 style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;">
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fab fa-hubspot fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Tracking</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores
+                            nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fas fa-check-double fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Entregas garantizadas</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores
+                            nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fas fa-user fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Servicio personalizado</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores
+                            nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-4 mb-1">
-                    <i class="fas fa-check-double fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Entregas garantizadas</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-                        nam, aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-4 mb-1">
-                    <i class="fas fa-user fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Servicio personalizado</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-                        nam, aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <!--Grid column-->
             </div>
             <!--Grid row-->
         </section>
@@ -136,131 +152,134 @@
         <hr class="my-5">
         <!--Section: Nosotros-->
         <section id="nosotros" class="mt-5 mb-5">
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-md-7">
-                    <div class="view overlay z-depth-1-half zoom">
-                        <img class="img-fluid" src="content/frontpage/delivery_man.jpg">
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-5">
-                    <h2>Logística confiable y responsable</h2>
-                    <hr>
-                    <p>En Logica Express...</p>
-                    <a class="btn btn-elegant" href="#contacto">Contáctanos!</a>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-            <!--Grid row-->
-            <div class="row pt-3">
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12">
-                    <!-- Card Dark -->
-                    <div class="card z-depth-1-half my-3">
-                        <!-- Card image -->
-                        <div class="view overlay">
-                            <img alt="Card image cap"
-                                 class="card-img-top"
-                                 src="content/frontpage/berlingo_frontpage.jpg">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                        <!-- Card content -->
-                        <div class="card-body elegant-color white-text rounded-bottom">
-                            <!-- Social shares button -->
-                            <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
-                            <!-- Title -->
-                            <h4 class="card-title">Card title</h4>
-                            <hr class="hr-light">
-                            <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and
-                                make
-                                up the bulk
-                                of the card's content.</p>
-                            <!-- Link -->
-                            <a class="white-text d-flex justify-content-end" href="#!">
-                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                            </a>
+                <!--Grid row-->
+                <div class="animated row fadeIn" data-wow-delay="0s">
+                    <!--Grid column-->
+                    <div class="col-md-7">
+                        <div class="view overlay z-depth-1-half zoom">
+                            <img class="img-fluid" src="content/frontpage/delivery_man.jpg">
                         </div>
                     </div>
-                    <!-- Card Dark -->
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6">
-                    <!-- Card Dark -->
-                    <div class="card z-depth-1-half my-3">
-                        <!-- Card image -->
-                        <div class="view overlay">
-                            <img alt="Card image cap"
-                                 class="card-img-top"
-                                 src="content/frontpage/tracking.jpg">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                        <!-- Card content -->
-                        <div class="card-body elegant-color white-text rounded-bottom">
-                            <!-- Social shares button -->
-                            <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
-                            <!-- Title -->
-                            <h4 class="card-title">El control en tus manos</h4>
-                            <hr class="hr-light">
-                            <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and
-                                make
-                                up the bulk
-                                of the card's content.</p>
-                            <!-- Link -->
-                            <a class="white-text d-flex justify-content-end" href="#!">
-                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                            </a>
-                        </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-5">
+                        <h2>Logística confiable y responsable</h2>
+                        <hr>
+                        <p>En Logica Express...</p>
+                        <a class="btn btn-elegant" href="#contacto">Contáctanos!</a>
                     </div>
-                    <!-- Card Dark -->
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6">
-                    <!-- Card Dark -->
-                    <div class="card z-depth-1-half my-3">
-                        <!-- Card image -->
-                        <div class="view overlay">
-                            <img alt="Card image cap"
-                                 class="card-img-top"
-                                 src="content/frontpage/caja_frontpage.jpg">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row pt-3">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12">
+                        <!-- Card Dark -->
+                        <div class="card z-depth-1-half my-3 animated wow fadeIn" data-wow-delay="0.4">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img alt="Card image cap"
+                                     class="card-img-top"
+                                     src="content/frontpage/berlingo_frontpage.jpg">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+                                <!-- Social shares button -->
+                                <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+                                <!-- Title -->
+                                <h4 class="card-title">Card title</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Some quick example text to build on the card title
+                                    and
+                                    make
+                                    up the bulk
+                                    of the card's content.</p>
+                                <!-- Link -->
+                                <a class="white-text d-flex justify-content-end" href="#!">
+                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                                </a>
+                            </div>
                         </div>
-                        <!-- Card content -->
-                        <div class="card-body elegant-color white-text rounded-bottom">
-                            <!-- Social shares button -->
-                            <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
-                            <!-- Title -->
-                            <h4 class="card-title">Entregamos confianza</h4>
-                            <hr class="hr-light">
-                            <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and
-                                make
-                                up the bulk
-                                of the card's content.</p>
-                            <!-- Link -->
-                            <a class="white-text d-flex justify-content-end" href="#!">
-                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                            </a>
-                        </div>
+                        <!-- Card Dark -->
                     </div>
-                    <!-- Card Dark -->
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Card Dark -->
+                        <div class="card z-depth-1-half my-3 animated wow fadeIn" data-wow-delay="0.6s">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img alt="Card image cap"
+                                     class="card-img-top"
+                                     src="content/frontpage/tracking.jpg">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+                                <!-- Social shares button -->
+                                <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+                                <!-- Title -->
+                                <h4 class="card-title">El control en tus manos</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Some quick example text to build on the card title
+                                    and
+                                    make
+                                    up the bulk
+                                    of the card's content.</p>
+                                <!-- Link -->
+                                <a class="white-text d-flex justify-content-end" href="#!">
+                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card Dark -->
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Card Dark -->
+                        <div class="card z-depth-1-half my-3 animated wow fadeIn" data-wow-delay="0.8s">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img alt="Card image cap"
+                                     class="card-img-top"
+                                     src="content/frontpage/caja_frontpage.jpg">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+                                <!-- Social shares button -->
+                                <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+                                <!-- Title -->
+                                <h4 class="card-title">Entregamos confianza</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Some quick example text to build on the card title
+                                    and
+                                    make
+                                    up the bulk
+                                    of the card's content.</p>
+                                <!-- Link -->
+                                <a class="white-text d-flex justify-content-end" href="#!">
+                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card Dark -->
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
+                <!--Grid row-->
         </section>
         <!--Section: Nosotros-->
         <hr class="my-5">
@@ -268,7 +287,7 @@
         <section id="servicios" class="mt-5 mb-5">
             <h2 class="mb-5 text-center font-weight-bold wow fadeIn">Nuestros servicios</h2>
             <div class="row">
-                <div class="col-xl-6 col-md-12">
+                <div class="col-xl-6 col-md-12 animated wow fadeIn">
                     <!--Accordion wrapper-->
                     <div class="accordion md-accordion accordion-5" id="accordionEx5" role="tablist"
                          aria-multiselectable="true">
@@ -369,7 +388,7 @@
                     </div>
                     <!--/.Accordion wrapper-->
                 </div>
-                <div class="col-md-12 col-xl-6">
+                <div class="col-md-12 col-xl-6 animated wow fadeIn" data-wow-delay="0.2s">
                     <img src="content/frontpage/tropa_camionetas.jpg"
                          class="img-fluid rounded z-depth-1"
                          alt="My photo">
@@ -399,7 +418,7 @@
                         </div>
                         <div class="md-form form-sm"><i class="fas fa-tag prefix orange-text"></i>
                             <input type="text" id="form32" class="form-control form-control-sm">
-                            <label for="form34">Asunto</label>
+                            <label form="form34">Asunto</label>
                         </div>
                         <div class="md-form form-sm"><i class="fas fa-pencil-alt prefix orange-text"></i>
                             <textarea type="text" id="form8" class="md-textarea form-control form-control-sm"
@@ -421,9 +440,11 @@
                         <div class="card-body">
                             <div class="container-fluid d-flex justify-content-center text-center">
                                 <div class="col-md-12">
-                                    <h5 class="text-muted"><i class="fas fa-phone-alt mr-3 orange-text"></i>+56 9 1234 5678</h5>
+                                    <h5 class="text-muted"><i class="fas fa-phone-alt mr-3 orange-text"></i>+56 9 1234
+                                        5678</h5>
                                     <hr class="hr-dark">
-                                    <h5 class="text-muted text-lowercase"><i class="far fa-envelope mr-3 orange-text"></i>contacto@logicaexpress.cl</h5>
+                                    <h5 class="text-muted text-lowercase"><i
+                                            class="far fa-envelope mr-3 orange-text"></i>contacto@logicaexpress.cl</h5>
                                 </div>
                             </div>
                         </div>
